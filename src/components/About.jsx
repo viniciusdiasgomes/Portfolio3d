@@ -36,29 +36,22 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introdução</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Resumo</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Desenvolvedor web focado em criar interfaces modernas, performáticas e
-        bem estruturadas, unindo design, experiência do usuário e código limpo.
+        Desenvolvedor web focado na criação de interfaces modernas, performáticas e código limpo.
+
+Atuo principalmente com JavaScript, TypeScript, React, Node.js e APIs REST, desenvolvendo aplicações completas do front-end ao back-end, com atenção à arquitetura, performance e escalabilidade. Possuo experiência prática com Three.js e React Three Fiber, criando experiências interativas em 3D para web.
         <br />
         <br />
-        Atuo principalmente com JavaScript, React, Node.js e APIs REST,
-        desenvolvendo aplicações completas do front ao back. Tenho experiência
-        prática com Three.js / React Three Fiber, criando experiências
-        interativas em 3D, além de trabalhar com Docker, Linux e automações para
-        tornar soluções mais eficientes e escaláveis.
+Desenvolvi automações e integrações, incluindo soluções que atendem mais de 400 representantes comerciais via WhatsApp, além de projetos web com mais de 5 mil acessos mensais, atuando desde a interface até infraestrutura e deploy. Tenho vivência com Docker, Linux e DevOps, estruturando ambientes, pipelines e serviços para garantir estabilidade e eficiência.
         <br />
         <br />
-        Tenho um olhar atento para UI/UX, performance e organização de projetos,
-        sempre buscando escrever código legível, reutilizável e fácil de manter.
-        Gosto de aprender novas tecnologias na prática e transformar ideias em
-        produtos funcionais.
-      </motion.p>
+     </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

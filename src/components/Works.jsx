@@ -66,7 +66,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My work</p>
+        <p className={styles.sectionSubText}>Meus Trabalhos</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
@@ -75,8 +75,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Olhe alguns dos projetos que desenvolvi, focados em performance,
-          boas práticas e design moderno.
+          Uma amostra de projetos desenvolvidos com boas práticas e tecnologia moderna.
         </motion.p>
       </div>
 

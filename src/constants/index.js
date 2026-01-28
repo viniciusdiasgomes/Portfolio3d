@@ -15,10 +15,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  estrela,
+  suprema,
   carrent,
   jobit,
   tripguide,
@@ -28,33 +26,33 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experiencia",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contato",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web & Front-end",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Back-end & APIs",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Automações & Integrações",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Linux & Docker",
     icon: creator,
   },
 ];
@@ -116,85 +114,35 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Desenvolvedor Fullstack",
+    company_name: "estrela",
+    icon: estrela,
+    iconBg: "#ffffff",
+    date: "Agosto 2025 - momento", 
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvimento de um site de ofertas com consulta dinâmica de produtos em promoção, atuando no front-end, back-end e configuração de ambiente.",
+      "Implementação de uma aplicação web com mais de 5 mil acessos mensais, garantindo performance, estabilidade e boa experiência do usuário.",
+      "Criação e manutenção do site institucional, com foco em identidade visual, responsividade e boas práticas de UI/UX.",
+      "Estruturação de ambientes com Docker e Linux, incluindo build, deploy e manutenção da aplicação.",
+      "Desenvolvimento de automação de e-mail marketing, enviando campanhas personalizadas com produtos já comprados anteriormente, esquecidos no carrinho e ofertas ativas, aumentando o engajamento dos clientes.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Automações e Integrações",
+    company_name: "suprema",
+    icon: suprema,
+    iconBg: "#ffffff",
+    date: "Agosto 2025 - momento",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvimento de automações em larga escala atendendo mais de 450 representantes comerciais (RCAs).",
+      "Implementação de fluxos automatizados para identificação de clientes inativos, permitindo acompanhamento e recuperação de vendas.",
+      "Criação de automações para monitoramento de produtos sem vendas nos últimos 30 dias, auxiliando estratégias comerciais.",
+      "Integração de sistemas internos com WhatsApp, otimizando a comunicação entre representantes e clientes.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
@@ -262,4 +210,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
