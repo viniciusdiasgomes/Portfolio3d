@@ -9,11 +9,11 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import n8n from "./tech/n8n.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import oracle from "./tech/oracle.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
@@ -25,7 +25,7 @@ import estrela from "./company/estrela.jpeg";
 import suprema from "./company/suprema.jpeg";
 
 
-import carrent from "./carrent.png";
+import keyboard from "./keyboard.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -40,11 +40,11 @@ export {
   close,
   css,
   docker,
-  figma,
+  n8n,
   git,
   html,
   javascript,
-  mongodb,
+  oracle,
   nodejs,
   reactjs,
   redux,
@@ -53,7 +53,7 @@ export {
   threejs,
   suprema,
   estrela,
-  carrent,
+  keyboard,
   jobit,
   tripguide,
 };

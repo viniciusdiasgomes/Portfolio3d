@@ -11,15 +11,13 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  oracle,
   git,
-  figma,
+  n8n,
   docker,
   estrela,
   suprema,
-  carrent,
-  jobit,
-  tripguide,
+  keyboard,
   threejs,
 } from "../assets";
 
@@ -91,8 +89,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "oracle",
+    icon: oracle,
   },
   {
     name: "Three JS",
@@ -103,8 +101,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "n8n",
+    icon: n8n,
   },
   {
     name: "docker",
@@ -146,16 +144,20 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Keyboard 3D",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Desenvolvi uma landing page com animações em 3D focada em performance, fluidez e experiência do usuário. O projeto envolveu o uso de GSAP, Three.js e React Three Fiber, com desafios práticos na criação de animações complexas, controle de estado no React e otimização de renderização 3D. Acessa o link: https://lnkd.in/deFMfuUu",
     tags: [
+          {
+        name: "React-Three-Fiber",
+        color: "red-text-gradient",
+      },
       {
-        name: "react",
+        name: "Three.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "GSAP",
         color: "green-text-gradient",
       },
       {
@@ -163,50 +165,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: keyboard,
+    source_code_link: "https://lnkd.in/drwV9w52",
   },
 ];
 
