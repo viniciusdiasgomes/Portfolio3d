@@ -146,7 +146,7 @@ const projects = [
   {
     name: "Keyboard 3D",
     description:
-      "Desenvolvi uma landing page com animações em 3D focada em performance, fluidez e experiência do usuário. O projeto envolveu o uso de GSAP, Three.js e React Three Fiber, com desafios práticos na criação de animações complexas, controle de estado no React e otimização de renderização 3D. Acessa o link: https://lnkd.in/deFMfuUu",
+      "Desenvolvi uma landing page com animações em 3D focada em performance, fluidez e experiência do usuário. O projeto envolveu o uso de GSAP, Three.js e React Three Fiber, com desafios práticos na criação de animações complexas, controle de estado no React e otimização de renderização 3D. Acessa o link: https://keycap3d-m7ao.vercel.app/",
     tags: [
           {
         name: "React-Three-Fiber",
